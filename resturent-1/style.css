@@ -1,0 +1,260 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row{
+    width: 100%;
+}
+
+.row::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+[class*="col"]{
+    float: left;
+    padding: 15px;
+}
+
+/* for mobile */
+[class*="col-"]{
+    width: 100%;
+}
+
+/* header starts here */
+
+header{
+    background: #24a19c;
+    padding: 0% 1%;
+    text-align: center;
+}
+
+.logo-div{
+    text-align: left;
+}
+
+.nav ul li{
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+
+
+.nav ul li a{
+    display: inline-block;
+}
+
+.nav ul li a:hover{
+    background-color: transparent;
+    transform: scale(1.2);
+    text-decoration: underline;
+    border-radius: 0;
+}
+
+.topnav a{
+    display: ;
+}
+
+.topnav .icon{
+    display: block;
+}
+
+.topnav .responsive a{
+    display: block;
+}
+
+/* banner starts here */
+
+#banner-section{
+    background-image: url(./images/kfc-back.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-contents{
+    padding: 50px 10px;
+    text-align: center;
+}
+
+.banner-contents h1{
+    width: 100%;
+    margin: 15px auto;
+    font-size: 3rem;
+    background: rgba(255,255,0,0.884);
+    padding: 10px;
+    font-family: 'Handlee', cursive;
+}
+
+.banner-contents p{
+    width: 300px;
+    margin: 15px auto;
+    background: rgb(0,128,0);
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.btn{
+    width: 160px;
+    padding: 10px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    background: red;
+    text-transform: uppercase;
+    color: white;
+    transition: .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+/* banner ends here */
+
+/* about starts */
+
+#about-us{
+    padding: 1%;
+}
+
+.about-us-contents{
+    text-align: center;
+}
+
+.about-us-contents h3{
+   font-size: 2rem;
+   margin-bottom: 10px;
+   font-weight: bolder;
+}
+
+.about-us-contents p{
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+ }
+
+/* about ends */
+
+/* food menu start */
+
+#menu-section{
+    padding: 1%;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-body img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.item-desc{
+    background: rgb(165,164,164);
+}
+
+.item-name{
+    background: green;
+    color: white;
+    padding: 10px;
+}
+
+.item-desc > p{
+    font-size: 0.8rem;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card{
+    transition: 0.4s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+/* food menu ends */
+
+/* contact starts */
+
+#contact{
+    padding: 1%;
+    background: #595b83;
+}
+
+.map{
+    width: 100%;
+    height: 250px;
+}
+
+.contact-details{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-details p, address{
+    font-size: 00.8rem;
+}
+
+/* contact ends */
+
+/* footer starts */
+
+footer{
+    padding: 1%;
+    color: white;
+    background: black;
+}
+
+footer p{
+    line-height: 32px;
+    font-size: 00.9rem;
+    text-align: center;
+}
+
+.social-menu{
+    text-align: center;
+}
+
+.fa-solid{
+    color: white;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 10px;
+    transition: .4s;
+    text-align: center;
+}
+
+.fa-solid:hover{
+    background-color: grey;
+    transform: scale(1.2);
+}
+
+
+
+/* footer ends */
+
+
